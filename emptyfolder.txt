@@ -1,3 +1,10 @@
 you should act as per the instructions in the git projecct doc file 
 please first switch or rename your branch name form "main" to "seng_group4"
 and add memebers.txt containing name of members of students.
+
+
+1. Hagazi Berhe UGR/189722/16
+2. Akebom Gebreab Mit/ur187839/16
+3. Samuel G/silase UGR/189955/16
+4. Birhanu Zekiros UGR/189532/16
+5. Kidus Gebru UGR/191034/16
