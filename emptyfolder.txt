@@ -8,3 +8,4 @@ and add memebers.txt containing name of members of students.
 3. Samuel G/silase UGR/189955/16
 4. Birhanu Zekiros UGR/189532/16
 5. Kidus Gebru UGR/191034/16
+6. Dejen Kidane UGR/188013/16
