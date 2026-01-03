@@ -1,0 +1,57 @@
+ 1.What does git add do?
+
+  git add is a command that stages changes in your working directory for the next commit.
+  It tells Git which changes you want to include in the next commit. You can specify individual files, 
+  directories, or use . to add all changes.
+
+2.What is the use of -u (setting the upstream)?
+
+  The -u option (or --set-upstream) is used with the git push command to set the upstream branch for the current local branch.
+ This means that it establishes a tracking relationship between your local branch and a remote branch, 
+  allowing you to use simpler commands like git push and git pull without specifying the remote and branch names.
+
+3.What is a commit?
+
+  A commit in Git is a snapshot of your project's files at a specific point in time.
+  Each commit has a unique identifier (hash) and includes information about the changes made, the author,
+  and a commit message describing what was done.
+  Commits allow you to track the history of your project and revert to previous states if necessary.
+
+4. What is git pull?
+
+  git pull is a command that fetches changes from a remote repository and merges them into your current branch. 
+  It is essentially a combination of git fetch (which retrieves updates from the remote) 
+  and git merge (which integrates those updates into your current branch).
+
+5. What is a branch?
+
+  A branch in Git is a pointer to a specific commit in the repository's history.
+  It allows you to work on different versions of your project simultaneously.
+  By creating branches, you can develop features, fix bugs,
+  or experiment without affecting the main codebase (usually the main or master branch).
+
+6. What is a merge conflict?
+
+  A merge conflict occurs when Git is unable to automatically resolve differences between two branches during a merge operation. 
+  This typically happens when changes have been made to the same line of a file or when one branch modifies a file that another branch has deleted.
+  When a merge conflict occurs, Git requires manual intervention to resolve the conflicting changes.
+
+7. Write command to clone remote repository
+
+  git clone <repository-url>
+  Replace <repository-url> with the URL of the remote repository you want to clone.
+
+8. Write command to connect your local repository to remote repository
+
+  git remote add origin <repository-url>
+  Replace <repository-url> with the URL of your remote repository.
+
+9. Write command to push your local repository latest commits to remote repository (for the first time)
+
+  git push -u origin <branch-name>
+  Replace <branch-name> with the name of your current branch (e.g., main, master, or any other branch name).
+
+10. Write command to pull updated changes from remote repository
+
+  git pull origin <branch-name> 
+ Replace <branch-name> with the name of your current branch.
