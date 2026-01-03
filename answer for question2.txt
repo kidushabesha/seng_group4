@@ -1,0 +1,110 @@
+1. What command initializes a new Git repository?
+
+      git init
+   
+
+2. How do you clone an existing repository from GitHub?
+
+      git clone <repository-url>
+   
+   Replace <repository-url> with the URL of the GitHub repository.
+
+3. How do you check the remote URL of your repository?
+
+      git remote -v
+   
+
+4. How do you check the current status of files in your repository?
+
+      git status
+   
+
+5. How do you stage a single file for commit?
+
+      git add <file-name>
+   
+   Replace <file-name> with the name of the file you want to stage.
+
+6. How do you stage all modified files at once?
+
+      git add .
+   
+
+7. What command is used to commit staged changes with a message?
+
+      git commit -m "Your commit message here"
+   
+
+8. Which command shows the differences between unstaged changes and the last commit?
+
+      git diff
+   
+
+9. How do you see the differences for files that are already staged for commit?
+
+      git diff --cached
+   
+
+10. Which command displays the commit history?
+
+        git log
+    
+
+11. How do you show commit history in one line per commit?
+
+        git log --oneline
+    
+
+12. How do you list all local branches?
+
+        git branch
+    
+
+13. How do you create a new branch?
+
+        git branch <new-branch-name>
+    
+    Replace <new-branch-name> with the desired name for your new branch.
+
+14. How do you switch to an existing branch?
+
+        git checkout <branch-name>
+    
+    Replace <branch-name> with the name of the branch you want to switch to.
+
+15. How can you create a new branch and switch to it at the same time?
+
+        git checkout -b <new-branch-name>
+    
+
+16. How do you merge a branch into your current branch?
+
+        git merge <branch-name>
+    
+    Replace <branch-name> with the name of the branch you want to merge.
+
+17. What happens if there are conflicting changes during a merge?
+
+    If there are conflicting changes, Git will pause the merge process and mark the files with conflicts. You will need to manually resolve these conflicts before completing the merge.
+
+18. What command is used to pull changes from the remote repository?
+
+        git pull origin <branch-name>
+    
+
+19. What command is used to push your local commits to the remote repository?
+
+        git push origin <branch-name>
+    
+
+20. What should you do if git pull says “Your local changes would be overwritten by merge”?
+
+    You should either commit your local changes, stash them using git stash, or discard them if they are not needed before proceeding with the pull.
+
+21. What is a Git conflict?
+
+    A Git conflict occurs when two branches have made changes to the same line in a file or when one branch deletes a file that another branch has modified, preventing Git from automatically merging them.
+
+22. When does a conflict occur?
+
+    A conflict occurs during a merge or rebase operation when Git cannot automatically resolve differences between two branches due to overlapping changes in the same file(s).
